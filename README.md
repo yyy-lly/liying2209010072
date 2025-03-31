@@ -26,5 +26,4 @@
 - **数据库**
   
 
-# 打印README.md内容  
-print(readme_content)
+
