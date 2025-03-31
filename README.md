@@ -1,7 +1,5 @@
 # liying2209010072
-readme_content = f'''  
-# 李颖的求职简历  
-  
+# 李颖的求职简历    
 ## 个人信息  
 - 姓名：李颖  
 - 学号：2209010072  
@@ -14,22 +12,19 @@ readme_content = f'''
 - 意向城市：{virtual_info['city']}  
   
 ## 教育背景  
-- **{virtual_info['university']}** | **{virtual_info['major']}** | 本科  
+ 本科  湖南大学
+ 研究生 湖南大学
   
 ## 工作经历  
-- **{virtual_info['company']}** | **{virtual_info['position']}**   
   - 负责项目需求分析、设计和开发，确保项目按时交付。  
   - 参与代码审查，提高代码质量和可维护性。  
   - 与团队成员紧密合作，解决项目中的技术难题。  
   
 ## 技能清单  
-- **编程语言**：{', '.join(virtual_info['programming_languages'][:random.randint(1, 4)])}  
-- **框架**：{', '.join(virtual_info['frameworks'][:random.randint(1, 4)])}  
-- **数据库**：{', '.join(virtual_info['databases'][:random.randint(1, 4)])}  
+- **编程语言**  
+- **框架**
+- **数据库**
   
-## 自我评价  
-{virtual_info['self_evaluation']}  
-'''  
-  
+
 # 打印README.md内容  
 print(readme_content)
