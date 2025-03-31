@@ -1,6 +1,4 @@
 # liying2209010072
-import random  
-# 创建README.md内容  
 readme_content = f'''  
 # 李颖的求职简历  
   
